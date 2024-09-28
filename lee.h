@@ -15,3 +15,7 @@ int lee_1(){
     printf("%.2lf ounce=%.2lfsoupspoon\n", ounce, soupspoon);
     printf("%.2lf soupspoon=%.2lfteaspoon\n", soupspoon, teaspoon);
 }
+
+    int diff(int a, int b) {
+    return a - b;
+}
