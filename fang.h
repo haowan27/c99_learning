@@ -14,3 +14,12 @@ int fang_1(void)
 int sum(int a,int b) {
     return a+b;
 }
+// 这是两数求大数的函数
+int max(int f,int c) {
+    if(f>c)
+        return 1;
+    else if(f==c)
+            return 0;
+        else
+            return -1;
+}
