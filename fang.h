@@ -9,3 +9,8 @@ int fang_1(void)
     printf("%f\n",age*n);
     return 0;
 }
+
+// 这是一个求两数之和函数
+int sum(int a,int b) {
+    return a+b;
+}
