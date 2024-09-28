@@ -4,7 +4,7 @@ int lee_1(){
     fflush(stdout);
     scanf("%lf",&cup);
 
-
+    //加了一行注释
     pint = 2.0 * cup;
     ounce = 8.0 * cup;
     soupspoon= 2.0 * ounce;
