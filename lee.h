@@ -19,3 +19,30 @@ int lee_1(){
     int diff(int a, int b) {
     return a - b;
 }
+
+
+int main() {
+    int num, a, isPrime=1;
+    printf("Pls input num: \n");
+    scanf("%d",&num);
+
+    if (num <= 1) {
+        isPrime = 0;
+    } else {
+        for (a = 2; a <= num/2 ; a++) {//这个我搜了一下怎么处理这个循环，问的gpt
+        if (num % a== 0) {
+            isPrime=0;
+            break;
+          }
+        }
+    }
+
+    if (isPrime == 1) {
+        printf("%d is Prime\n",num);
+    }else{
+    printf("%d is not Prime\n",num);
+}
+return 0;
+
+
+}
