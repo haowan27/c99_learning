@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+
 int lee_1(){
     double pint =0,cup = 0,ounce = 0,soupspoon = 0,teaspoon = 0;
     printf("Pls input cup amounts: \n");
@@ -21,7 +24,7 @@ int lee_1(){
 }
 
 
-int main() {
+int lee_2() {
     int num, a, isPrime=1;
     printf("Pls input num: \n");
     scanf("%d",&num);
@@ -45,4 +48,20 @@ int main() {
 return 0;
 
 
+}
+
+int lee_3() {
+    char a[100],b[100];
+
+    printf("Pls input your first name: \n");
+    scanf("%s",a);
+    printf("Pls input your last name: \n");
+    scanf("%s",b);
+
+
+    int alen = strlen(a);
+    int blen = strlen(b);
+    printf("%s %s \n",a,b);
+    printf("%*d %*d\n", alen, alen, blen, blen);
+    return 0;
 }
