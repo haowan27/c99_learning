@@ -23,11 +23,9 @@ int lee_1(){
     return a - b;
 }
 
-
-int lee_2() {
-    int num, a, isPrime=1;
-    printf("Pls input num: \n");
-    scanf("%d",&num);
+//是质数，返回1，不是质数，返回0
+int isPrime(int num){
+    int  a, isPrime=1;
 
     if (num <= 1) {
         isPrime = 0;
@@ -39,18 +37,12 @@ int lee_2() {
           }
         }
     }
-
-    if (isPrime == 1) {
-        printf("%d is Prime\n",num);
-    }else{
-    printf("%d is not Prime\n",num);
-}
-return 0;
-
-
+    return isPrime;
 }
 
-int lee_3() {
+
+
+int caculate_your_name() {
     char a[100],b[100];
 
     printf("Pls input your first name: \n");
